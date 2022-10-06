@@ -69,3 +69,69 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+.square {
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish1 {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish3 {
+    background-color: burlywood;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish4 {
+    background-color: coral;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish5 {
+    background-color: peachpuff;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish6 {
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish7 {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish8 {
+    background-color: maroon;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish9 {
+    background-color: rebeccapurple;
+    height: 50px;
+    width: 50px;
+}
+
+.nailpolish10 {
+    background-color: salmon;
+    height: 50px;
+    width: 50px;
+}
