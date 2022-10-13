@@ -10,6 +10,7 @@ namespace SpaDay.Controllers
 {
     public class SpaController : Controller
     {
+        public static readonly string[] nailColors = { "Black", "DeepPink", "LightSalmon", "DarkMagenta", "LightPink", "LightSkyBlue", "LightSeaGreen", "LightSlateGrey", "Tomato", "Turquoise", "LightCoral", "Lavender", "FloralWhite", "FireBrick", "DarkRed", "DarkSalmon" };
         public bool CheckSkinType(string skinType, string facialType)
         {
 
@@ -46,7 +47,6 @@ namespace SpaDay.Controllers
             ViewBag.skintype = skintype;
             ViewBag.manipedi = manipedi;
 
-
             List<string> facials = new List<string>()
             {
                 "Microdermabrasion", "Hydrofacial", "Rejuvenating", "Enzyme Peel"
@@ -61,9 +61,9 @@ namespace SpaDay.Controllers
                 }
             }
             ViewBag.appropriateFacials = appropriateFacials;
+            ViewBag.nailColors = nailColors;
             return View();
         }
-
 
     }
 }

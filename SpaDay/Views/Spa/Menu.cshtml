@@ -41,5 +41,15 @@
             <p>Our manicure is a great way to spend 30 minutes of your day! We use shea butter hand cream and the finest gel polish.</p>
             <p>Relax for 45 minutes in pure luxury! Our massage chairs and experienced nail techs are here to get your feet in shape for sandal season!</p>
         }
+    else
+    {
+            <p>Error Loading Client Profile and Services.</p>
+    }
+    <div id="nail-polish-colors">
+        @foreach (string color in ViewBag.nailColors)
+        {
+                <div class="color-square" style="background-color:@color"></div>
+        }
+    </div>
     
 </div>
